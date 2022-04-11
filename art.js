@@ -8,23 +8,23 @@ var musicbutton;
 let hue = 0;
 
 // when we press the button the song & the loop pauses, when we press again they both play again
-function toggleSong() {
-  if (song.isPlaying()) {
-    song.pause();
-    noLoop();
-  } else {
-    song.play();
-    loop();
-  }
-}
-// this function is only to play/pause music, i added it because i also liked the animation with no music, i thought it would be cool to see
-// function playMusic() {
+// function toggleSong() {
 //   if (song.isPlaying()) {
 //     song.pause();
+//     noLoop();
 //   } else {
 //     song.play();
+//     loop();
 //   }
 // }
+// this function is only to play/pause music, i added it because i also liked the animation with no music, i thought it would be cool to see
+function playMusic() {
+  if (song.isPlaying()) {
+    song.pause();
+  } else {
+    song.play();
+  }
+}
 
 // loading the song
 function preload() {
