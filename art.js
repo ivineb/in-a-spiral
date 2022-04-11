@@ -28,7 +28,7 @@ function playMusic() {
 
 // loading the song
 function preload() {
-  song = loadSound('15-in-a-spiral_da.mp3');
+  song = loadSound('da.mp3');
 }
 
 // creating the button, playing the song, and adding the amplitude
