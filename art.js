@@ -18,13 +18,13 @@ function toggleSong() {
   }
 }
 // this function is only to play/pause music, i added it because i also liked the animation with no music, i thought it would be cool to see
-function playMusic() {
-  if (song.isPlaying()) {
-    song.pause();
-  } else {
-    song.play();
-  }
-}
+// function playMusic() {
+//   if (song.isPlaying()) {
+//     song.pause();
+//   } else {
+//     song.play();
+//   }
+// }
 
 // loading the song
 function preload() {
